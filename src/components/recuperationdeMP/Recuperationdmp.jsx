@@ -8,13 +8,20 @@ import { Link } from "react-router-dom";
 function Recuperationdmp() {
     return (
         <Container className='mt-5'>
-            <Row className=''> 
+            <Row>
                 <Col></Col>
-                <Col  className=' shadow p-3 mb-5 bg-body-tertiary rounded'>
-                    <img src={logo} className='mx-5 img-fluid' alt="logo-bakeli" />
+                <Col className='mt-5 shadow p-3 mb-5 bg-body-tertiary rounded'>
+                    <img src={logo} className='img-fluid w-50' alt="logo-bakeli" />
+                    <br />
+                    <Form.Text >
+                        <h4 className='text-danger'>
+                            Recuperer votre Mot de passe
+                        </h4>
+                    </Form.Text>
+                    <br />
                     <Form className='text-start'>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Label> Entrer votre Email address</Form.Label>
+                            {/* <Form.Label> Entrer votre Email address</Form.Label> */}
                             <Form.Control type="email" placeholder="Enter email" />
                         </Form.Group>
 
