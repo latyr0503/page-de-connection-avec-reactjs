@@ -39,10 +39,11 @@ function Inscription() {
                             {/* <Form.Label>Confirmer le Password</Form.Label> */}
                             <Form.Control type="password" placeholder="Confirmer le Password" />
                         </Form.Group>
-
-                        <Button variant="warning" className='w-100' type="submit">
-                            S'inscrire
-                        </Button>
+                        <Link to="/" className=''>
+                            <Button variant="warning" className='w-100' type="submit">
+                                S'inscrire
+                            </Button>
+                        </Link>
                         <br /><br />
                         <Form.Text className="text-muted">
                             Vous possédez déjà un compte ?

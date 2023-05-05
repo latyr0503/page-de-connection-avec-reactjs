@@ -24,10 +24,11 @@ function Recuperationdmp() {
                             {/* <Form.Label> Entrer votre Email address</Form.Label> */}
                             <Form.Control type="email" placeholder="Enter email" />
                         </Form.Group>
-
-                        <Button variant="warning" className='w-100' type="submit">
-                            Recupére le mot de passe
-                        </Button>
+                        <Link to="/Pagedrecuperationdmdp" className='text-success'> Identifiez-vous
+                            <Button variant="warning" className='w-100' type="submit">
+                                Recupére le mot de passe
+                            </Button>
+                        </Link>
                         <br /><br />
                         <Form.Text className="text-muted">
                             Vous possédez déjà un compte ?

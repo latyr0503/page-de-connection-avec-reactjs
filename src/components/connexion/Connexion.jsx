@@ -29,15 +29,16 @@ function Connexion() {
                         </Form.Group>
 
                         <Form.Text className="text-muted">
-                            <Link to="/Recuperationdmp" className='text-success'>Mot de passe oublié </Link><br/><br/>
+                            <Link to="/Recuperationdmp" className='text-success'>Mot de passe oublié </Link><br /><br />
                         </Form.Text>
-
-                        <Button variant="warning" className='w-100' type="submit">
-                            Se connecter
-                        </Button>
-                        <br/><br/>  
+                        <Link to="/home" className='text-black text-decoration-none'>
+                            <Button variant="warning" className='w-100' type="submit">
+                                Se connecter
+                            </Button>
+                        </Link>
+                        <br /><br />
                         <Form.Text className="text-muted">
-                        <Link to="/Inscription" className='text-success'> S'inscrire </Link> <br/><br/>
+                            <Link to="/Inscription" className='text-success'> S'inscrire </Link> <br /><br />
                         </Form.Text>
                     </Form>
                 </Col>
