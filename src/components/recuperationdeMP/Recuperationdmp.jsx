@@ -10,13 +10,13 @@ function Recuperationdmp() {
         <Container className='mt-5'>
             <Row>
                 <Col></Col>
-                <Col className='mt-5 shadow p-3 mb-5 bg-body-tertiary rounded'>
+                <Col lg={4} sm={12} className='mt-5 shadow p-3 mb-5 bg-body-tertiary rounded'>
                     <img src={logo} className='img-fluid w-50' alt="logo-bakeli" />
                     <br />
                     <Form.Text >
-                        <h4 className='text-danger'>
+                        <h5 className='text-danger'>
                             Recuperer votre Mot de passe
-                        </h4>
+                        </h5>
                     </Form.Text>
                     <br />
                     <Form className='text-start'>

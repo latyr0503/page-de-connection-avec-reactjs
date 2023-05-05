@@ -10,13 +10,13 @@ function Inscription() {
         <Container className='mt-5'>
             <Row className=''>
                 <Col ></Col>
-                <Col className='  shadow p-3 mb-5 bg-body-tertiary rounded'>
-                    <img src={logo} className='mx-5 img-fluid w-25' alt="logo-bakeli" />
+                <Col lg={4} sm={12} className='  shadow p-3 mb-5 bg-body-tertiary rounded'>
+                    <img src={logo} className='img-fluid w-25' alt="logo-bakeli" />
                     <br />
                     <Form.Text >
-                        <h4 className='text-danger'>
+                        <h5 className='text-danger'>
                             S'inscrire sur notre platforme
-                        </h4>
+                        </h5>
                     </Form.Text>
                     <br />
                     <Form className='text-start'>
