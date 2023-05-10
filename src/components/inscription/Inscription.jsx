@@ -11,10 +11,11 @@ function Inscription() {
             <Row className=''>
                 <Col ></Col>
                 <Col lg={4} sm={12} className='  shadow p-3 mb-5 bg-body-tertiary rounded'>
-                    <img src={logo} className='img-fluid w-25' alt="logo-bakeli" />
-                    <br />
+                    <div className='d-flex justify-content-center'>
+                        <img src={logo} className='img-fluid w-25' alt="logo-bakeli" />
+                    </div>
                     <Form.Text >
-                        <h5 className='text-danger'>
+                        <h5 className='text-danger text-center'>
                             S'inscrire sur notre platforme
                         </h5>
                     </Form.Text>

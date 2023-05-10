@@ -9,10 +9,11 @@ function Connexion() {
             <Row >
                 <Col></Col>
                 <Col lg={4} sm={12} className=' shadow p-3 mb-5 bg-body-tertiary rounded'>
-                    <img src={logo} className='img-fluid w-50' alt="logo-bakeli" />
-                    <br />
+                    <div className='d-flex justify-content-center'>
+                        <img src={logo} className='img-fluid w-50' alt="logo-bakeli" />
+                    </div>
                     <Form.Text >
-                        <h5 className='text-danger'>
+                        <h5 className='text-danger text-center'>
                             Se connecter sur notre platforme
                         </h5>
                     </Form.Text>
@@ -31,7 +32,7 @@ function Connexion() {
                         <Form.Text className="text-muted">
                             <Link to="/Recuperationdmp" className='text-success'>Mot de passe oublié </Link><br /><br />
                         </Form.Text>
-                        <Link to="/home" className='text-black text-decoration-none'>
+                        <Link to="/Acceuil" className='text-black text-decoration-none'>
                             <Button variant="warning" className='w-100' type="submit">
                                 Se connecter
                             </Button>

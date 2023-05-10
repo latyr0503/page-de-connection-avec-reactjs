@@ -1,12 +1,12 @@
 import React from 'react'
-import { Nav, Navbar, Container, Button } from 'react-bootstrap'
+import { Nav, Navbar, Container, Button} from 'react-bootstrap'
 import { Link } from "react-router-dom";
 
 
 function Home() {
     return (
         <Navbar bg="light" expand="lg">
-            <Container>
+            <Container fluid>
                 <Navbar.Brand href="#home">Atelier React js</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -17,13 +17,13 @@ function Home() {
                         <Nav.Link href="#link">Contact</Nav.Link>
                     </Nav>
                     <Link to="/" className=' text-black text-decoration-none'>
-                            <Button variant="danger" className='float-end w-100' type="submit">
-                                Déconnexion
-                            </Button>
-                        </Link>
+                        <Button variant="danger" className='float-end w-100' type="submit">
+                            Déconnexion
+                        </Button>
+                    </Link>
                 </Navbar.Collapse>
             </Container>
-        </Navbar>
+        </Navbar >
     )
 }
 
